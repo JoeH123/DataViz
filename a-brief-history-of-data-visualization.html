@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Chapter 2 A Brief History of Data Visualization | Telling Stories with Data</title>
+  <meta name="description" content="Chapter 2 A Brief History of Data Visualization | Telling Stories with Data" />
+  <meta name="generator" content="bookdown 0.33 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Chapter 2 A Brief History of Data Visualization | Telling Stories with Data" />
+  <meta property="og:type" content="book" />
+  <meta property="og:image" content="/CoverArt.png" />
+  
+  <meta name="github-repo" content="rstudio/bookdown-demo" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Chapter 2 A Brief History of Data Visualization | Telling Stories with Data" />
+  
+  
+  <meta name="twitter:image" content="/CoverArt.png" />
+
+<meta name="author" content="Joe Hobart" />
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="introduction.html"/>
+<link rel="next" href="think-data-ink.html"/>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+
+
+<style type="text/css">
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { color: #008000; } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { color: #008000; font-weight: bold; } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
+
+<style type="text/css">
+/* Used with Pandoc 2.11+ new --citeproc when CSL is used */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">Data Visualization</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Preface</a>
+<ul>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#why-read-this-book"><i class="fa fa-check"></i>Why read this book</a></li>
+</ul></li>
+<li class="chapter" data-level="1" data-path="introduction.html"><a href="introduction.html"><i class="fa fa-check"></i><b>1</b> Introduction</a>
+<ul>
+<li class="chapter" data-level="1.1" data-path="introduction.html"><a href="introduction.html#growth-in-data"><i class="fa fa-check"></i><b>1.1</b> Growth in Data</a></li>
+<li class="chapter" data-level="1.2" data-path="introduction.html"><a href="introduction.html#the-data-story"><i class="fa fa-check"></i><b>1.2</b> The Data Story</a></li>
+<li class="chapter" data-level="1.3" data-path="introduction.html"><a href="introduction.html#why-data-visualization"><i class="fa fa-check"></i><b>1.3</b> Why Data Visualization?</a></li>
+<li class="chapter" data-level="1.4" data-path="introduction.html"><a href="introduction.html#planning-the-data-story"><i class="fa fa-check"></i><b>1.4</b> Planning the Data Story</a></li>
+<li class="chapter" data-level="1.5" data-path="introduction.html"><a href="introduction.html#enriching-the-story"><i class="fa fa-check"></i><b>1.5</b> Enriching The Story</a>
+<ul>
+<li class="chapter" data-level="1.5.1" data-path="introduction.html"><a href="introduction.html#use-of-units"><i class="fa fa-check"></i><b>1.5.1</b> Use of Units</a></li>
+<li class="chapter" data-level="1.5.2" data-path="introduction.html"><a href="introduction.html#use-familiar-comparisons"><i class="fa fa-check"></i><b>1.5.2</b> Use Familiar Comparisons</a></li>
+<li class="chapter" data-level="1.5.3" data-path="introduction.html"><a href="introduction.html#use-everyday-terms"><i class="fa fa-check"></i><b>1.5.3</b> Use Everyday Terms</a></li>
+<li class="chapter" data-level="1.5.4" data-path="introduction.html"><a href="introduction.html#use-the-moral-or-emotional-approach"><i class="fa fa-check"></i><b>1.5.4</b> Use the Moral or Emotional Approach</a></li>
+<li class="chapter" data-level="1.5.5" data-path="introduction.html"><a href="introduction.html#use-a-personal-approach"><i class="fa fa-check"></i><b>1.5.5</b> Use a Personal Approach</a></li>
+</ul></li>
+<li class="chapter" data-level="1.6" data-path="introduction.html"><a href="introduction.html#best-practices"><i class="fa fa-check"></i><b>1.6</b> Best Practices</a>
+<ul>
+<li class="chapter" data-level="1.6.1" data-path="introduction.html"><a href="introduction.html#select-your-audience"><i class="fa fa-check"></i><b>1.6.1</b> Select Your Audience</a></li>
+<li class="chapter" data-level="1.6.2" data-path="introduction.html"><a href="introduction.html#know-your-purpose"><i class="fa fa-check"></i><b>1.6.2</b> Know Your Purpose</a></li>
+<li class="chapter" data-level="1.6.3" data-path="introduction.html"><a href="introduction.html#select-the-right-visual"><i class="fa fa-check"></i><b>1.6.3</b> Select the Right Visual</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="a-brief-history-of-data-visualization.html"><a href="a-brief-history-of-data-visualization.html"><i class="fa fa-check"></i><b>2</b> A Brief History of Data Visualization</a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="a-brief-history-of-data-visualization.html"><a href="a-brief-history-of-data-visualization.html#epoch-i---pre-17th-century-early-maps-and-diagrams"><i class="fa fa-check"></i><b>2.1</b> Epoch I - Pre-17th Century: Early Maps and Diagrams</a></li>
+<li class="chapter" data-level="2.2" data-path="a-brief-history-of-data-visualization.html"><a href="a-brief-history-of-data-visualization.html#epoch-ii---1600---1699-measurement-and-theory"><i class="fa fa-check"></i><b>2.2</b> Epoch II - 1600 - 1699: Measurement and Theory</a></li>
+<li class="chapter" data-level="2.3" data-path="a-brief-history-of-data-visualization.html"><a href="a-brief-history-of-data-visualization.html#epoch-iii---1700---1799-new-graphical-forms"><i class="fa fa-check"></i><b>2.3</b> Epoch III - 1700 - 1799: New Graphical Forms</a></li>
+<li class="chapter" data-level="2.4" data-path="a-brief-history-of-data-visualization.html"><a href="a-brief-history-of-data-visualization.html#epoch-iv---1800---1850-beginnings-of-modern-graphics"><i class="fa fa-check"></i><b>2.4</b> Epoch IV - 1800 - 1850: Beginnings of Modern Graphics</a></li>
+<li class="chapter" data-level="2.5" data-path="a-brief-history-of-data-visualization.html"><a href="a-brief-history-of-data-visualization.html#epoch-v---1850---1900-the-golden-age-of-statistical-graphics"><i class="fa fa-check"></i><b>2.5</b> Epoch V - 1850 - 1900: The Golden Age of Statistical Graphics</a></li>
+<li class="chapter" data-level="2.6" data-path="a-brief-history-of-data-visualization.html"><a href="a-brief-history-of-data-visualization.html#epoch-vi-1900-1950-the-modern-dark-ages"><i class="fa fa-check"></i><b>2.6</b> Epoch VI: 1900-1950: The Modern Dark Ages</a></li>
+<li class="chapter" data-level="2.7" data-path="a-brief-history-of-data-visualization.html"><a href="a-brief-history-of-data-visualization.html#epoch-vii---1950---1975-the-re-birth-of-data-visualization"><i class="fa fa-check"></i><b>2.7</b> Epoch VII - 1950 - 1975: The Re-birth of Data Visualization</a></li>
+<li class="chapter" data-level="2.8" data-path="a-brief-history-of-data-visualization.html"><a href="a-brief-history-of-data-visualization.html#epoch-viii---1975---today-high-definition-and-dynamic-visualization"><i class="fa fa-check"></i><b>2.8</b> Epoch VIII - 1975 - Today: High Definition and Dynamic Visualization</a></li>
+<li class="chapter" data-level="2.9" data-path="a-brief-history-of-data-visualization.html"><a href="a-brief-history-of-data-visualization.html#todays-data-visualization-tools"><i class="fa fa-check"></i><b>2.9</b> Today’s Data Visualization Tools</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="think-data-ink.html"><a href="think-data-ink.html"><i class="fa fa-check"></i><b>3</b> Think Data Ink</a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="think-data-ink.html"><a href="think-data-ink.html#data-ink"><i class="fa fa-check"></i><b>3.1</b> Data Ink</a></li>
+<li class="chapter" data-level="3.2" data-path="think-data-ink.html"><a href="think-data-ink.html#tables"><i class="fa fa-check"></i><b>3.2</b> Tables</a></li>
+<li class="chapter" data-level="3.3" data-path="think-data-ink.html"><a href="think-data-ink.html#graphics"><i class="fa fa-check"></i><b>3.3</b> Graphics</a></li>
+<li class="chapter" data-level="3.4" data-path="think-data-ink.html"><a href="think-data-ink.html#exercises"><i class="fa fa-check"></i><b>3.4</b> Exercises</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="planning-your-visualization.html"><a href="planning-your-visualization.html"><i class="fa fa-check"></i><b>4</b> Planning Your Visualization</a>
+<ul>
+<li class="chapter" data-level="4.1" data-path="planning-your-visualization.html"><a href="planning-your-visualization.html#when-a-visualization-hits-our-eyes"><i class="fa fa-check"></i><b>4.1</b> When a Visualization Hits our Eyes</a></li>
+<li class="chapter" data-level="4.2" data-path="planning-your-visualization.html"><a href="planning-your-visualization.html#two-questions-you-should-ask"><i class="fa fa-check"></i><b>4.2</b> Two Questions You Should Ask</a></li>
+<li class="chapter" data-level="4.3" data-path="planning-your-visualization.html"><a href="planning-your-visualization.html#planning"><i class="fa fa-check"></i><b>4.3</b> Planning</a>
+<ul>
+<li class="chapter" data-level="4.3.1" data-path="planning-your-visualization.html"><a href="planning-your-visualization.html#preparation"><i class="fa fa-check"></i><b>4.3.1</b> Preparation</a></li>
+<li class="chapter" data-level="4.3.2" data-path="planning-your-visualization.html"><a href="planning-your-visualization.html#talk-and-listen"><i class="fa fa-check"></i><b>4.3.2</b> Talk and Listen</a></li>
+<li class="chapter" data-level="4.3.3" data-path="planning-your-visualization.html"><a href="planning-your-visualization.html#sketch"><i class="fa fa-check"></i><b>4.3.3</b> Sketch</a></li>
+<li class="chapter" data-level="4.3.4" data-path="planning-your-visualization.html"><a href="planning-your-visualization.html#prototype"><i class="fa fa-check"></i><b>4.3.4</b> Prototype</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="types-of-graphs.html"><a href="types-of-graphs.html"><i class="fa fa-check"></i><b>5</b> Types of Graphs</a>
+<ul>
+<li class="chapter" data-level="5.1" data-path="types-of-graphs.html"><a href="types-of-graphs.html#simple-text"><i class="fa fa-check"></i><b>5.1</b> Simple Text</a></li>
+<li class="chapter" data-level="5.2" data-path="types-of-graphs.html"><a href="types-of-graphs.html#tables-1"><i class="fa fa-check"></i><b>5.2</b> Tables</a></li>
+<li class="chapter" data-level="5.3" data-path="types-of-graphs.html"><a href="types-of-graphs.html#heatmap"><i class="fa fa-check"></i><b>5.3</b> Heatmap</a></li>
+<li class="chapter" data-level="5.4" data-path="types-of-graphs.html"><a href="types-of-graphs.html#scatterplot"><i class="fa fa-check"></i><b>5.4</b> Scatterplot</a></li>
+<li class="chapter" data-level="5.5" data-path="types-of-graphs.html"><a href="types-of-graphs.html#line-graph"><i class="fa fa-check"></i><b>5.5</b> Line Graph</a></li>
+<li class="chapter" data-level="5.6" data-path="types-of-graphs.html"><a href="types-of-graphs.html#slopegraph"><i class="fa fa-check"></i><b>5.6</b> Slopegraph</a></li>
+<li class="chapter" data-level="5.7" data-path="types-of-graphs.html"><a href="types-of-graphs.html#vertical-and-horizontal-bar-graph"><i class="fa fa-check"></i><b>5.7</b> Vertical and Horizontal Bar Graph</a></li>
+<li class="chapter" data-level="5.8" data-path="types-of-graphs.html"><a href="types-of-graphs.html#stacked-bar-graph"><i class="fa fa-check"></i><b>5.8</b> Stacked Bar Graph</a></li>
+<li class="chapter" data-level="5.9" data-path="types-of-graphs.html"><a href="types-of-graphs.html#waterfall-graph"><i class="fa fa-check"></i><b>5.9</b> Waterfall Graph</a></li>
+<li class="chapter" data-level="5.10" data-path="types-of-graphs.html"><a href="types-of-graphs.html#square-area-graph"><i class="fa fa-check"></i><b>5.10</b> Square Area Graph</a></li>
+<li class="chapter" data-level="5.11" data-path="types-of-graphs.html"><a href="types-of-graphs.html#avoid-these-when-possible"><i class="fa fa-check"></i><b>5.11</b> Avoid These When Possible</a>
+<ul>
+<li class="chapter" data-level="5.11.1" data-path="types-of-graphs.html"><a href="types-of-graphs.html#pie-charts"><i class="fa fa-check"></i><b>5.11.1</b> Pie Charts</a></li>
+<li class="chapter" data-level="5.11.2" data-path="types-of-graphs.html"><a href="types-of-graphs.html#donut-chart"><i class="fa fa-check"></i><b>5.11.2</b> Donut Chart</a></li>
+<li class="chapter" data-level="5.11.3" data-path="types-of-graphs.html"><a href="types-of-graphs.html#d-charts"><i class="fa fa-check"></i><b>5.11.3</b> 3D Charts</a></li>
+<li class="chapter" data-level="5.11.4" data-path="types-of-graphs.html"><a href="types-of-graphs.html#secondary-axis"><i class="fa fa-check"></i><b>5.11.4</b> Secondary Axis</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="data-visualization-design.html"><a href="data-visualization-design.html"><i class="fa fa-check"></i><b>6</b> Data Visualization Design</a>
+<ul>
+<li class="chapter" data-level="6.1" data-path="data-visualization-design.html"><a href="data-visualization-design.html#connecting-with-visuals"><i class="fa fa-check"></i><b>6.1</b> Connecting with Visuals</a></li>
+<li class="chapter" data-level="6.2" data-path="data-visualization-design.html"><a href="data-visualization-design.html#what-is-a-good-visualization"><i class="fa fa-check"></i><b>6.2</b> What is a Good Visualization?</a>
+<ul>
+<li class="chapter" data-level="6.2.1" data-path="data-visualization-design.html"><a href="data-visualization-design.html#colour"><i class="fa fa-check"></i><b>6.2.1</b> Colour</a></li>
+<li class="chapter" data-level="6.2.2" data-path="data-visualization-design.html"><a href="data-visualization-design.html#form"><i class="fa fa-check"></i><b>6.2.2</b> Form</a></li>
+<li class="chapter" data-level="6.2.3" data-path="data-visualization-design.html"><a href="data-visualization-design.html#spacial-position"><i class="fa fa-check"></i><b>6.2.3</b> Spacial Position</a></li>
+</ul></li>
+<li class="chapter" data-level="6.3" data-path="data-visualization-design.html"><a href="data-visualization-design.html#gestalt-principles-of-visual-perception"><i class="fa fa-check"></i><b>6.3</b> Gestalt Principles of Visual Perception</a>
+<ul>
+<li class="chapter" data-level="6.3.1" data-path="data-visualization-design.html"><a href="data-visualization-design.html#gestalt-principles"><i class="fa fa-check"></i><b>6.3.1</b> Gestalt principles</a></li>
+</ul></li>
+<li class="chapter" data-level="6.4" data-path="data-visualization-design.html"><a href="data-visualization-design.html#readability"><i class="fa fa-check"></i><b>6.4</b> Readability</a></li>
+</ul></li>
+<li class="chapter" data-level="7" data-path="making-your-chart-more-persuasive.html"><a href="making-your-chart-more-persuasive.html"><i class="fa fa-check"></i><b>7</b> Making Your Chart More Persuasive</a>
+<ul>
+<li class="chapter" data-level="7.1" data-path="making-your-chart-more-persuasive.html"><a href="making-your-chart-more-persuasive.html#clearly-articulating-your-point"><i class="fa fa-check"></i><b>7.1</b> Clearly Articulating Your Point</a></li>
+<li class="chapter" data-level="7.2" data-path="making-your-chart-more-persuasive.html"><a href="making-your-chart-more-persuasive.html#three-tips"><i class="fa fa-check"></i><b>7.2</b> Three Tips</a>
+<ul>
+<li class="chapter" data-level="7.2.1" data-path="making-your-chart-more-persuasive.html"><a href="making-your-chart-more-persuasive.html#hone-the-main-idea"><i class="fa fa-check"></i><b>7.2.1</b> Hone the Main Idea</a></li>
+<li class="chapter" data-level="7.2.2" data-path="making-your-chart-more-persuasive.html"><a href="making-your-chart-more-persuasive.html#make-it-stand-out"><i class="fa fa-check"></i><b>7.2.2</b> Make it Stand Out</a></li>
+<li class="chapter" data-level="7.2.3" data-path="making-your-chart-more-persuasive.html"><a href="making-your-chart-more-persuasive.html#adjust-what-is-around-it"><i class="fa fa-check"></i><b>7.2.3</b> Adjust What is Around It</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Telling Stories with Data</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="a-brief-history-of-data-visualization" class="section level1 hasAnchor" number="2">
+<h1><span class="header-section-number">Chapter 2</span> A Brief History of Data Visualization<a href="a-brief-history-of-data-visualization.html#a-brief-history-of-data-visualization" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<p>It is important to see how data visualization has evolved over time. Studying history can often be insightful and can help illuminate the core foundation upon which this important topic in data science is built. Seeing what innovative ways people used visualization will hopefully inspire you to be innovative yourself. Finally, we hope that this historical perspective provides inspiration. Consider that it took until the 1800’s to invent the scatterplot. What future plots and techniques might we still be able to discover?</p>
+<p>We characterize the evolution of data visualization in eight epochs (<span class="citation">Friendly (<a href="references.html#ref-Friendly:06:hbook" role="doc-biblioref">2006</a>)</span>). The paper “A Brief History of Data Visualization” (<span class="citation">Friendly (<a href="references.html#ref-Friendly:06:hbook" role="doc-biblioref">2006</a>)</span>) is a great place to find additional information on the history of data visualization.</p>
+<div id="epoch-i---pre-17th-century-early-maps-and-diagrams" class="section level2 hasAnchor" number="2.1">
+<h2><span class="header-section-number">2.1</span> Epoch I - Pre-17th Century: Early Maps and Diagrams<a href="a-brief-history-of-data-visualization.html#epoch-i---pre-17th-century-early-maps-and-diagrams" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Indeed, the history of data visualization can be traced back to nearly the beginning of time. In the first epoch, pre 1600, humans were using maps to make sense of their surroundings. By making maps, this allowed people to share information about their surroundings with each other (<span class="citation"> (<a href="references.html#ref-BBCDataScience" role="doc-biblioref">n.d.c</a>)</span>). While these maps tended to be imprecise, the information they were able to convey was still valuable.</p>
+<table>
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="center"><img src="RomaMap.jpg" /></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="center"><b>Image Credits - BBC Data Science Art Project (<span class="citation"> (<a href="references.html#ref-BBCDataScience" role="doc-biblioref">n.d.c</a>)</span>) </b></td>
+</tr>
+</tbody>
+</table>
+<p>The Tabula Peutinger is a Roman map used to move and position armies. It shows the road system of the empire beginning in Britain in the west and finishing in India in the East.</p>
+<p>In addition to geographical visualizations, people were using visualizations to collect information about planets. Here is a graph indicating the position of the sun, moon and planets.</p>
+<table>
+<thead>
+<tr class="header">
+<th align="center"><img src="Planets.png" /></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="center"><b>Image Credits - Funkhouser, 1936 (<span class="citation">Dix and Ellis (<a href="references.html#ref-Dixinproceedings" role="doc-biblioref">1998</a>)</span>) </b></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="epoch-ii---1600---1699-measurement-and-theory" class="section level2 hasAnchor" number="2.2">
+<h2><span class="header-section-number">2.2</span> Epoch II - 1600 - 1699: Measurement and Theory<a href="a-brief-history-of-data-visualization.html#epoch-ii---1600---1699-measurement-and-theory" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>The second epoch begins in the 1600’s around the beginning of the scientific revolution. During this epoch, many of the core values of scientific thinking were established, specifically, this epoch is characterized by precise measurement. Around this era, problems concerned with physical measurement of time, distance and space were among the most important. Thanks in part to the contributions of Descartes and Fermat, this century saw the rise of analytic geometry. Pascal and Fermat also gave us the beginning of probability theory.</p>
+<p>Christopher Scheiner created a visual telling the story of sun spots. Scheiner, a priest, studied sun spots in an attempt to reconcile Church teachings that the Cosmos had no imperfections with the visual evidence that it did. The image shows sunspots from October 23 through December 19, 1611. One can see the seven sunspots identified in the key in the upper left corner of the visual and the corresponding spots in the lower images.</p>
+<table>
+<thead>
+<tr class="header">
+<th align="center"><img src="Sunspots2.png" /></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="center"><b>Image Credits - Scheiner, 1630 (<span class="citation">Carrasco et al. (<a href="references.html#ref-Cararticle" role="doc-biblioref">2022</a>)</span>)</b></td>
+</tr>
+</tbody>
+</table>
+<p>Michael Florent van Langren was a Flemish astronomer who produced what is widely believed to be the first visual representation of statistical data(<span class="citation">Tufte (<a href="references.html#ref-Tufte_1997" role="doc-biblioref">1997</a>)</span>). Here, he displays the 12 known estimates of the difference in longitude between Toledo and Rome. While this data could be very simply be shown in a table, his use of a graphic illustrates the wide range in variation between the estimates. The middle of the range (a gap in which he inscribed “ROMA”) was his estimate of the true longitude. Incidentally, the true longitude is <span class="math inline">\(16^o30&#39;\)</span> as depicted by the arrow at the bottom of the graphic. This graphic also was an early example of one in which we have negated the effect of ordering bias in a visualization.</p>
+<table>
+<thead>
+<tr class="header">
+<th align="center"><img src="RomToledo.jpg" /></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="center"><b>Image Credits - Tufte, 1997 (<span class="citation">Tufte (<a href="references.html#ref-Tufte_1997" role="doc-biblioref">1997</a>)</span>)</b></td>
+</tr>
+</tbody>
+</table>
+<p>During this epoch, we also see the first bivariate plot of a theoretical curve relating barometric pressure to altitude as well as the first known weather map of wind (<span class="citation">Sridharan (<a href="references.html#ref-Sridharan_2017" role="doc-biblioref">2017</a>)</span>).</p>
+<table>
+<thead>
+<tr class="header">
+<th align="center"><img src="BarometricPressure.PNG" /></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="center"><b>Image Credits - Sankaran (<span class="citation">Sankaran (<a href="references.html#ref-StatisticalDataVisualization" role="doc-biblioref">2021</a>)</span>)</b></td>
+</tr>
+</tbody>
+</table>
+<p>Several governments begin collecting social data in this century. The goal of this data collection, termed “political arithmetic”, was to gain insight in matters related to wealth, agriculture, land, population, taxes, etc. Some of this data was used for the purposes of annuities and insurance and came about by way of life tables. By the end of the century, all of the necessary elements for visual thinking were beginning to fall into place.</p>
+</div>
+<div id="epoch-iii---1700---1799-new-graphical-forms" class="section level2 hasAnchor" number="2.3">
+<h2><span class="header-section-number">2.3</span> Epoch III - 1700 - 1799: New Graphical Forms<a href="a-brief-history-of-data-visualization.html#epoch-iii---1700---1799-new-graphical-forms" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>In the third epoch, artists are beginning to explore different visual forms and creative forms of communicating data in an attempt to quickly generate insights. Specifically, timelines, cartograms, functional interpolations, line graphs, and bar charts were established and being put to use. Additionally, contour and topographical maps began to show up.</p>
+<p>During this time period, three-colour printing was invented thus bringing about an additional mode to encode data. The cost of replication, however, made wide circulation impossible.</p>
+</div>
+<div id="epoch-iv---1800---1850-beginnings-of-modern-graphics" class="section level2 hasAnchor" number="2.4">
+<h2><span class="header-section-number">2.4</span> Epoch IV - 1800 - 1850: Beginnings of Modern Graphics<a href="a-brief-history-of-data-visualization.html#epoch-iv---1800---1850-beginnings-of-modern-graphics" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Epoch four is the beginning of modern graphics. By this point, all of the major forms of data display have been invented: line, bar, and pie charts, histograms, time-series, contour, and scatter plots, etc. From cartography, maps evolved to atlases involving a wide range of symbolism and dealing with a variety of topics (economic data, medical data, etc.). Geological maps made their first appearance at the beginning of the century. These types of diagrams began to regularly appear in scientific papers, too.</p>
+<p>William Playfair introduced this graph which depicts the price of wheat juxtaposed with the change in wages. Visuals produced with this data allowed for the study of economic problems. Playfair also was one of the first to experiment with composing multiple graphs to determine relationships between variables.</p>
+<table>
+<thead>
+<tr class="header">
+<th align="center"><img src="ColourChart.PNG" /></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="center"><b>Image Credits - Sankaran (<span class="citation">Sankaran (<a href="references.html#ref-StatisticalDataVisualization" role="doc-biblioref">2021</a>)</span>) </b></td>
+</tr>
+</tbody>
+</table>
+<p>During 1931, the first case of cholera occurred in Great Britain with over 52,000 deaths in the ensuing epidemic. Dr. John Snow and Dr. Robert Baker both studied the phenomena. Baker created a map of cholera showing the districts of Leeds impacted by cholera during the 1832 outbreak. Baker’s map did not lead to any answers about how to treat or cure cholera. At the time, it was unknown how the disease was transmitted. Baker shaded the 1800 cholera cases which were divided into “the districts in which the cholera had prevailed.” There was a note in his report pointing out the association between the disease and living conditions: “how exceedingly the disease has prevailed in those parts of the town where there is a deficiency, often an entire want of sewage, drainage, and paving” (<span class="citation">Gilbert (<a href="references.html#ref-Gilbert_1958" role="doc-biblioref">1958</a>)</span>). However, there were not incidence rates nor data about population density on the map. This left his conclusions weak.</p>
+<table>
+<thead>
+<tr class="header">
+<th align="center"><img src="Cholera1.PNG" /></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="center"><b>Image Credits - Gilbert (<span class="citation">Gilbert (<a href="references.html#ref-Gilbert_1958" role="doc-biblioref">1958</a>)</span>)</b></td>
+</tr>
+</tbody>
+</table>
+<p>Fast forward a few years, toward the end of epoch 4 and the beginning of epoch 5, and Dr. John Snow produced a graph of Cholera cases with each death marked by a dot. The dots appear clustered around the Broad Street pump in London leading to both the discovery that the pump was causing the spread of cholera and that, in general, cholera is spread by liquid.</p>
+<table>
+<thead>
+<tr class="header">
+<th align="center"><img src="Cholera2.PNG" /></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="center"><b>Image Credits - Gilbert (<span class="citation">Gilbert (<a href="references.html#ref-Gilbert_1958" role="doc-biblioref">1958</a>)</span>) </b></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="epoch-v---1850---1900-the-golden-age-of-statistical-graphics" class="section level2 hasAnchor" number="2.5">
+<h2><span class="header-section-number">2.5</span> Epoch V - 1850 - 1900: The Golden Age of Statistical Graphics<a href="a-brief-history-of-data-visualization.html#epoch-v---1850---1900-the-golden-age-of-statistical-graphics" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>The fifth epoch is the golden age of data analytics. This begins in the mid 19th century. We attribute this epoch with artists collecting data and using visualizations to communicate the data. It is a transition from an era filled with enthusiasm to the golden age.</p>
+<p>We find John Snow’s cholera graphic right on the border of these epoch 4 and 5. Florence Nightingale’s illustration of the need for greater sanitary conditions among the British army. In her visualization, we clearly see that more soldiers died from disease and the consequences of wounds than in the battles themselves. These were but a few examples of the innovations in graphical design that were invented over this period.</p>
+<table>
+<thead>
+<tr class="header">
+<th align="center"><img src="Nightingale.PNG" /></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="center"><b>Image Credits - Sankaran (<span class="citation">Sankaran (<a href="references.html#ref-StatisticalDataVisualization" role="doc-biblioref">2021</a>)</span>) </b></td>
+</tr>
+</tbody>
+</table>
+<p>We also see the visual telling the story of Napoleon’s march to Moscow and then return home. This visual shows the number of soldier lives lost, the temperature and the distance traveled.</p>
+<table>
+<thead>
+<tr class="header">
+<th align="center"><img src="Minard.PNG" /></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="center"><b>Image Credits - Sankaran (<span class="citation">Sankaran (<a href="references.html#ref-StatisticalDataVisualization" role="doc-biblioref">2021</a>)</span>) </b></td>
+</tr>
+</tbody>
+</table>
+<p>Francis Galton, well known for his work in correlation and regression, helped develop statistical insight from visualizations. He noted that in a normal distribution, the isolines of equal frequency would appear as concentric ellipses and that the locus of the regression lines of the means of <span class="math inline">\(y|x\)</span> and <span class="math inline">\(x|y\)</span> were the conjugate diameters of these ellipses.</p>
+<p>Galton’s work extended to notable non-statistical graphical discoveries such of those involving counter-clockwise patterns of winds around low-pressure regions combined with clockwise rotataions around high-pressure zones. This work is summarized in Meteorographica (1863) (<span class="citation">Galton (<a href="references.html#ref-galton1863meteorographica" role="doc-biblioref">1863</a>)</span>).</p>
+<p>However, one of the most important works of this epoch was the Albums de Statistique Graphique published by the French ministry of public works (1879 – 1897). Under the direction of Emile Cheysson, these large format books (11 x 17 in) contained a multitude of economic and financial data related to planning and development. Most significanly, this book can be seen as an overview of the various graphical techniques known at the time.</p>
+<p>However, among the many beautiful stories, there are some issues in this epoch. Toward the end of the century, the Albums de Statistique Graphique were discontinued due to the high production costs. In some cases, visuals become too complicated for interpretation. In other cases, the graphics overwrite the story of the data.</p>
+</div>
+<div id="epoch-vi-1900-1950-the-modern-dark-ages" class="section level2 hasAnchor" number="2.6">
+<h2><span class="header-section-number">2.6</span> Epoch VI: 1900-1950: The Modern Dark Ages<a href="a-brief-history-of-data-visualization.html#epoch-vi-1900-1950-the-modern-dark-ages" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>After the fifth epoch, a bit of a revolution begins. There were few innovations during this period. Formal models supplanted the enthusiasm for visualization which was so plentiful during the late 1800s. We can classify this epoch as the modern dark ages of data analytics.</p>
+<p>During this era, academics revolt in an attempt for more accuracy, control and a standardized language. Creativity for the sake of creativity is limited and a push for accuracy is introduced.</p>
+<p>However, during this period, we find that the population gains an overall acceptance of graphical techniques. Graphics become mainstream. They begin showing up in English textbooks, in commerce and in science. Indeed, Sir Arthur Bowley’s textbook (1901) Elements of Statistics (<span class="citation">Bowley (<a href="references.html#ref-Ford_1901" role="doc-biblioref">1901</a>)</span>) devoted two chapters to the construction and dissemination of graphs and diagrams. These chapters deal with visual elements such as scale, visual estimates of differences and ratios, smoothing of graphs, 3D graphics and multiple plots overlayed on the same graph. One example is Arthur Bowley’s graph depicting several exponential smoothings of a time series graph showing a 10-year trend in exports.</p>
+<table>
+<thead>
+<tr class="header">
+<th align="center"><img src="Bowley.PNG" /></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="center"><b>Image Credits - Bowley, 1901 (<span class="citation">Bowley (<a href="references.html#ref-Ford_1901" role="doc-biblioref">1901</a>)</span>) </b></td>
+</tr>
+</tbody>
+</table>
+<p>A push for standardization in graphs culminated in a set of standards and rules for graphical presentation adopted by the Joint Committee on Standards for Graphic Presentation in 1914.</p>
+</div>
+<div id="epoch-vii---1950---1975-the-re-birth-of-data-visualization" class="section level2 hasAnchor" number="2.7">
+<h2><span class="header-section-number">2.7</span> Epoch VII - 1950 - 1975: The Re-birth of Data Visualization<a href="a-brief-history-of-data-visualization.html#epoch-vii---1950---1975-the-re-birth-of-data-visualization" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Three significant developments occurred during the mid 1900’s which shaped the rebirth of data visualization during this era.</p>
+<p>First John W. Tukey published a landmark paper titled The Future of Data Analysis (1962) in which he issued a call for the recognition of data analysis as a branch of statistics. He also invented what he called Exploratory Data Analysis (EDA). This consisted of a number of graphs (stem-leaf plots, boxplots, hanging rootograms, two-way table displays etc.) that quickly became commonplace.</p>
+<p>Next, Jacques Bertin published Semiologie Graphique (1967). This paper is the data visualization of the periodic table in that it organized visual and perceptual elements of graphics according to features and relations in data.</p>
+<p>Finally, and perhaps most importantly, computer processing of statistical data began. FORTRAN, one of the first computer languages, is developed in 1957. By the late 1960s, mainframe computers were widely available at many universities. This lead to the ability to construct graphs by computer program. Indeed, statistical applications became available (though, they were not yet widespread). As a result, more data can be analyzed in more sophisticated ways. We are able to add different graphical elements that we didn’t have previously.</p>
+<p>By the end of the period, there were the beginnings of collaborative computer science research, developments in data analysis and new display and input technology. We begin to hear of ideas related to new ways to visualize multivariate data, the development of dimension reduction techniques and perceptually based theory of graphical attributes.</p>
+</div>
+<div id="epoch-viii---1975---today-high-definition-and-dynamic-visualization" class="section level2 hasAnchor" number="2.8">
+<h2><span class="header-section-number">2.8</span> Epoch VIII - 1975 - Today: High Definition and Dynamic Visualization<a href="a-brief-history-of-data-visualization.html#epoch-viii---1975---today-high-definition-and-dynamic-visualization" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Today’s epoch can be called high-definition data analytics where visuals are now almost always created with the assistance of computers. We take advantage of all of the insights we learned from past epochs to create very powerful visuals. Indeed, visualizations now have surpassed human creativity.</p>
+<p>A few recent highlights include the development of interactive graphics, new methods for visualizing highly dimensional data, the application of visualization techniques to a growing list of problems and an increased focus on how data is perceived.</p>
+<p>Of course, these developments are substantially aided by advances in statistical software such as R, SAS, Python, Power BI, etc. A substantial increase in computer speed has aided these software. We have also seen advances in classical statistics in which we move toward wider domains. Indeed, statistics has evolved to the point where it requires a new name - Data Science. While statistics and data science are not the same, there is substantial overlap. Colloquially, data science involves the collection, organization, analysis and visualization of data (typically, large amounts of data) while statistics typically uses mathematical models to quantify relationships between variables and outcomes and makes predictions based on those relationships.</p>
+</div>
+<div id="todays-data-visualization-tools" class="section level2 hasAnchor" number="2.9">
+<h2><span class="header-section-number">2.9</span> Today’s Data Visualization Tools<a href="a-brief-history-of-data-visualization.html#todays-data-visualization-tools" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>There is a very quickly changing and dynamic market for visualization tools. For simplicity, one way to consider the market for data visualization tools is to evaluate them in terms of ease of use and of capability. Ask yourself if the tool is simple to use and simple to learn. Can I quickly get the tool to do what I want it to do. In this way, ease of use is important. Assessing the capability is a bit different. Some tools do one specific task very well. Others are useful for a variety of tasks. So, one might need to weigh the capability of one tool against a set of different tools that accomplish the same tasks. Is broad better than specific? It truly depends on the tool.</p>
+<table>
+<thead>
+<tr class="header">
+<th align="center"><img src="DataVizTools.PNG" /></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="center"><b>Image Credits - Kevin Hartman (<span class="citation">Hartman (<a href="references.html#ref-hartmankevin2022" role="doc-biblioref">2022</a>)</span>)</b></td>
+</tr>
+</tbody>
+</table>
+<p>These tools are laid out on the graphic above. Clearly, there are four quadrants in this figure.</p>
+<p>The upper left quadrant is filled with tools that are easy to use but limited in scope. These tools might be appropriate for one-off tasks. For example, Wordle is a very easy to use software that creates word clouds. You need almost no training to use it; however, it does nothing other than word clouds.</p>
+<p>The upper right quadrant is full of tools that are both powerful and easy to use. Products like Plotly and Power BI are both fairly powerful and relatively simple to use. These types of products should be your default tools - tools that you use for everyday visualizations. Try to spend 75% of your time with products in this quadrant.</p>
+<p>In the lower right quadrant, we find tools that are incredibly powerful but quite difficult to learn. So, the power we get from the tool is offset by the awkward nature or the difficult learning curve. While these tools may require some time to learn, they tend to be incredibly powerful. Some of these tools are among the most important tools for you to know how to use.</p>
+<p>The bottom left quadrant is filled with software that is both limited in scope and difficult to use. These tools really do not need your attention. Typically, these tools can be replaced with something that is at the same level of difficulty but much more powerful, or something that is just as limited in scope, but is much simpler to use.</p>
+<p>One thing we need to do is remember that the market for analytics tools is ever-changing. Thus, remain flexible and as the market changes, be prepared to change as well. You can’t stay on top of all of the different tools; however, do some investigation and see what tools might work best for you. Replace less powerful and difficult to use tools with simple powerful tools.</p>
+
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="introduction.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="think-data-ink.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": "https://github.com/USERNAME/REPO/edit/BRANCH/02-history_of_dataviz.Rmd",
+"text": "Edit"
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": ["_main.pdf", "_main.epub"],
+"search": {
+"engine": "fuse",
+"options": null
+},
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/latest.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+</body>
+
+</html>

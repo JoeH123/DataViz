@@ -10,22 +10,22 @@ Recently, I've found myself watching pre-season baseball.  Major League Baseball
 
 Think about that last sentence for a second.  I will spend less time counting down the timer and more time listening to the announcer.  Now, apply that idea to you presenting an idea in a presentation.  If people are spending time and effort on trying to understand your visual, they are spending less time listening to you.  Your goal should always be to have people to listen to you as you present data.
 
-Major retailers like Walmart, Amazon and others use data they collect from millions of people who visit their websites and stores to recommend you products.  Indeed, there is a famous story about a father who phoned the complaints department at Walmart because Walmart sent his 16 year old daughter targeted marketing material meant for someone who was about to have a baby.  The material, which consisted of adds for strollers, cribs, cute baby shoes and other baby accessories, also had coupons for diapers and baby formula.  The father, furious that Walmart would send advertisements that might encourage his teenage daughter to have sex and get pregnant, yelled at the operator on the other end of the phone and demanded an apology.  
-
+>  Example:  Major retailers like Walmart, Amazon and others use data they collect from millions of people who visit their websites and stores to recommend you products.  Indeed, there is a famous story about a father who phoned the complaints department at Walmart because Walmart sent his 16 year old daughter targeted marketing material meant for someone who was about to have a baby.  The material, which consisted of adds for strollers, cribs, cute baby shoes and other baby accessories, also had coupons for diapers and baby formula.  The father, furious that Walmart would send advertisements that might encourage his teenage daughter to have sex and get pregnant, yelled at the operator on the other end of the phone and demanded an apology.  
+>
 |![](Amazon.png)|
 |:--:|
 | <b>Image Credits - Arkadiusz Krysik, 2021</b>|
+>
+>  As it turns out, the daughter had made some purchases that Walmart's data team had flagged as strong indicators that the purchaser was pregnant.  The store then automatically sent out the marketing material without considering the age of the girl.  But, that's not the entire story.  It turns out that the girl was pregnant.  And, that's how Walmart knew a teenage girl was pregnant before her dad did.  
 
-As it turns out, the daughter had made some purchases that Walmart's data team had flagged as strong indicators that the purchaser was pregnant.  The store then automatically sent out the marketing material without considering the age of the girl.  But, that's not the entire story.  It turns out that the girl was pregnant.  And, that's how Walmart knew a teenage girl was pregnant before her dad did.  
 
-
-But, data goes far beyond these simple examples.  When you go online, you see adds.  These adds target you because of your online preferences, the sites you've visited and even parts of the website that you have hovered over.  These adds don't just happen to be for products and services you are interested in.  Massive amounts of data were collected and people with similar internet history to you and they will see similar adds to you.  Those whose internet history is different will likely see different adds.  The data drives the marketing.
+But, data goes far beyond these simple examples.  When you go online, you see adds.  These adds target you because of your online preferences, the sites you've visited and even parts of the website that you have hovered over.  These adds don't just happen to be for products and services you are interested in.  Massive amounts of data were collected.  You, and people with similar internet history to you, they will see similar adds to you.  Those whose internet history is different will likely see different adds.  The data drives the marketing.
 
 We all have smartphones.  These phones track our steps, take care of email and text messages, track where we are, give us directions and help us navigate social media.  This data is all stored and can all be used by the service provider to give you better service.  Think about it - when was the last time you had to use a paper map to get somewhere?  Do gas stations still sell paper maps?  Our smartphone providers have vast amounts of data on you and where you've been.  By using the various apps on your phone, you have essentially given your phone provider an endless supply of data about you and your habits.
 
 |![](CellPhone.png)|
 |:--:|
-| <b>Image Credits - Trevor Wheelwright, 2022</b>|
+| <b>Image Credits - Trevor Wheelwright (@2022CellPhone)</b>|
 
 
 The point is that data is all around us and those who use data are in a better position than those who don't.  Daryl Morey is an NBA executive.  He once said "Everyone in our business knows they need to visualize data but it's easy to do it poorly.  We invest in it.  We're excited if we can use it right while they use it wrong." (@Berinato_2016).  We hope that after reading this book, you will use it right.
@@ -34,7 +34,7 @@ The point is that data is all around us and those who use data are in a better p
 
 ##  Growth in Data
 
-We are currently living through the greatest expansion in data that the world has ever seen and as a result, it is becoming increasingly important that we understand the data and know how to correctly use it.  Part of correctly using data is communication.  Over 90% of the world's data has been produced in the past 2 years (@Marr).  The graphic below is from 2015 data and depicts the daily amount of data created.  All numbers are in billions.
+We are currently living through the greatest expansion in data that the world has ever seen and as a result, it is becoming increasingly important that we understand the data and know how to correctly use it.  Over 90% of the world's data has been produced in the past 2 years (@Marr).  The graphic below is from 2015 data and depicts the daily amount of data created.  All numbers are in billions.
 
 
 

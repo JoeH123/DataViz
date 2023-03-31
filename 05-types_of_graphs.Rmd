@@ -115,7 +115,7 @@ A line graph is used to display a trend over time.  Unlike bar graphs, a line gr
 | <b> Image Credits - Lindsay Betzendahl (@Rowell_Betzendahl_Brown_2020) </b>|
 
 
-Avoid using lines that are too thick (it hides the detail) or that ar too thin (they are hard to read).  As with graphing points, use sensible axis increments and attempt to have your data take roughly 2/3 of the graph range, if possible.  The number of lines on a line graph should not exceed four.  Avoid the temptation of using dashes or dots to differentiate between the line types.  Rather, select colours for each line.  If you absolutely need to display more than four categories of data, consider a panel of charts.  This avoids the graph looking like spaghetti.
+Avoid using lines that are too thick (it hides the detail) or that are too thin (they are hard to read).  As with graphing points, use sensible axis increments and attempt to have your data take roughly 2/3 of the graph range, if possible.  The number of lines on a line graph should not exceed four.  Avoid the temptation of using dashes or dots to differentiate between the line types.  Rather, select colours for each line.  If you absolutely need to display more than four categories of data, consider a panel of charts.  This avoids the graph looking like spaghetti.
 
 |![](Wong10.png)|
 |:--:|

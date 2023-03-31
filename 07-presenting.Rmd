@@ -26,7 +26,7 @@ The goal, when you are creating a graphic for persuasive purposes, is to create 
 
 The science of influence is a branch of psychology that plays a significant role in success.  Three strategies that we use to influence behaviour or thinking: economic, social and environmental.  
 
-Economic strategies are carrot and stick types of strategies.  There are benefits to doing one thing and negative consequences to doing another.  Social strategies are often driven by outside influences.  we should be doing things one way because everyone else is doing it this way.  Environmental strategies include environmental factors like having relaxing music in hospitals and doctor's offices.  There are many examples of these types of strategies.  Changing the physical environment even slightly can have a huge impact on persuasion.
+Economic strategies are carrot and stick types of strategies.  There are benefits to doing one thing and negative consequences to doing another.  Social strategies are often driven by outside influences.  We should be doing things one way because everyone else is doing it this way.  Environmental strategies include environmental factors like having relaxing music in hospitals and doctor's offices.  There are many examples of these types of strategies.  Changing the physical environment even slightly can have a huge impact on persuasion.
 
 Persuasion in visualization works in a similar way.  Steve J. Martin writes: "Whilst we’d like to think that our decisions are the result of effortful cognition, the reality is somewhat different.  Much of our behaviour is driven by unconscious cues present in our
 environment." (@Berinato_2016).
@@ -35,13 +35,13 @@ Even descriptions can be jazzed up in order to persuade your audience.  My house
 
 If you have a visualization and you have an opinion on how it should be interpreted, jazz it up so that it is interpreted the way you intended.  Use unconscious cues (Gestalt principles) like colour, contrast, space, words, what you show and what you leave out, to heighten the effect.
 
-Here's another example.  The graph below is fine (though, it should probably be horizontal rather than vertical).  But, if you want to persuade people that beer is expensive at baseball games, this likely won't do it without a significant explaination from you.
+Here's another example.  The graph below is fine (though, it should probably be horizontal rather than vertical).  But, if you want to persuade people that beer is expensive at baseball games, this likely won't do it without a significant explanation from you.
 
 |![](Berinato3.png)|
 |:--:|
 | <b> Image Credits - Scott Berinato (@Berinato_2016) </b>|
 
-The image below is far more persuasive.  It very quickly demonstrates how expensive beer is at baseball games.  Admittidely, it is slightly over the top, but it does drive the point home.
+The image below is far more persuasive.  It very quickly demonstrates how expensive beer is at baseball games.  Admittedly, it is slightly over the top, but it does drive the point home.
 
 
 |![](Berinato4.png)|
@@ -167,7 +167,7 @@ The reality is that what appears to be a trend, is only a blip.  The addition of
 
 Another way to think about this story is to shift the reference entirely.  While a resurgence might be taking place, it is minimal compared to music sales overall.
 
-|![](Berinato13.png)|
+|![](Berinato14.png)|
 |:--:|
 | <b> Image Credits - Scott Berinato (@Berinato_2016) </b>|
 
@@ -175,7 +175,7 @@ Another example of changing the reference is the beer at ballgames example.  A s
 
 Remember, while you do not want to distort the data, persuasion is fine.  There is no such thing as a 100% objective graph because our brains are not 100% objective.
 
-|![](Berinato13.png)|
+|![](Berinato15.png)|
 |:--:|
 | <b> Image Credits - Scott Berinato (@Berinato_2016) </b>|
 

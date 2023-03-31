@@ -15,7 +15,7 @@ You’ll say perhaps, "The guy on the left is more attractive." They say, "Fanta
 
 During the one hour you see dozens of pairs of pictures. Each of them means nothing to you because you don’t know who they are, but each of them is a choice that you make and explain. The interesting part of the experiment is that every now and then, the researcher will hand you the wrong card.  What the researchers found were two things: 1.  people never noticed that they got the card they didn’t choose.  2.  participants held the cards in their hand and then they go on and explain why this is really their choice. Participants make a choice, the researcher changed it and the participant explained it.
 
-The moral of these two experiments is that if an audience does not fully understand the story that they are being told, their minds will make up something to fill in the gaps.  If our data is too confusing to our audience, in some cases, they will make up a narative to help fill in the gaps.
+The moral of these two experiments is that if an audience does not fully understand the story that they are being told, their minds will make up something to fill in the gaps.  If our data is too confusing to our audience, in some cases, they will make up a narrative to help fill in the gaps.
 
 
 In a perfect world, we would communicate data without involving the prefrontal cortex.  We want to hit our audience with a message that strikes the lower brain (the emotional part of their cognative understanding).  We are wired to detect differences in shapes, colours, and size.  We refer to these as pre-attentive attributes.  While it seems easy enough to use these techniques, why do we continue to create bad visuals?  It is probably because we do not truly understand the rules.
@@ -78,7 +78,7 @@ One thing to remember that items that are similar in colour are perceived as bei
 
 
 
->  Example:  Use colours that make sense for comparassons. 
+>  Example:  Use colours that make sense for comparisons. 
 >
 |![](Wong5.png)|
 |:--:|
@@ -119,7 +119,7 @@ Form is another pre-attentive attribute that helps us focus our reader's attenti
 |:--:|
 | <b> Image Credits - Stephen Few (@Few_2012) </b>|
 
-Of course, bar graphs take advantage of length, either horizontally or vertically.  The audience can tell the difference between a line and a shorter one and they can make judgements about the relitive distance between them (this is the reason why bar graphs must begin at 0).
+Of course, bar graphs take advantage of length, either horizontally or vertically.  The audience can tell the difference between a line and a shorter one and they can make judgements about the relative distance between them (this is the reason why bar graphs must begin at 0).
 
 Width is another common attribute of form.  Here, we're talking about the change in length of a bar in the secondary direction.  Changing the width of a bar can help draw the audience's eye to the piece of data on the chart that is the most important.
 

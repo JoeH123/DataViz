@@ -53,70 +53,6 @@
 <script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
 
 
-<style type="text/css">
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-    color: #aaaaaa;
-  }
-pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-}
-code span.al { color: #ff0000; font-weight: bold; } /* Alert */
-code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
-code span.at { color: #7d9029; } /* Attribute */
-code span.bn { color: #40a070; } /* BaseN */
-code span.bu { color: #008000; } /* BuiltIn */
-code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
-code span.ch { color: #4070a0; } /* Char */
-code span.cn { color: #880000; } /* Constant */
-code span.co { color: #60a0b0; font-style: italic; } /* Comment */
-code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
-code span.do { color: #ba2121; font-style: italic; } /* Documentation */
-code span.dt { color: #902000; } /* DataType */
-code span.dv { color: #40a070; } /* DecVal */
-code span.er { color: #ff0000; font-weight: bold; } /* Error */
-code span.ex { } /* Extension */
-code span.fl { color: #40a070; } /* Float */
-code span.fu { color: #06287e; } /* Function */
-code span.im { color: #008000; font-weight: bold; } /* Import */
-code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
-code span.kw { color: #007020; font-weight: bold; } /* Keyword */
-code span.op { color: #666666; } /* Operator */
-code span.ot { color: #007020; } /* Other */
-code span.pp { color: #bc7a00; } /* Preprocessor */
-code span.sc { color: #4070a0; } /* SpecialChar */
-code span.ss { color: #bb6688; } /* SpecialString */
-code span.st { color: #4070a0; } /* String */
-code span.va { color: #19177c; } /* Variable */
-code span.vs { color: #4070a0; } /* VerbatimString */
-code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
-</style>
 
 <style type="text/css">
 /* Used with Pandoc 2.11+ new --citeproc when CSL is used */
@@ -293,7 +229,8 @@ div.csl-indent {
 </table>
 <p>Recently, I’ve found myself watching pre-season baseball. Major League Baseball has just introduced a new pitch-clock to try to speed up the game. As a way to figure out how much time is remaining before the pitcher needs to throw a pitch, I find myself counting down from 15. I’m sure by the time the regular season rolls around next month, FOX, ESPN and Sportsnet (some of the main TV broadcasters) will have found a way to relay that information to me. But the point is that there is a data-related aspect of the game that, if we added it to the data I already have, will enrich my viewing experience. More importantly, I will spend less time counting down the pitch timer and more time enjoying the game and listening to the announcer.</p>
 <p>Think about that last sentence for a second. I will spend less time counting down the timer and more time listening to the announcer. Now, apply that idea to you presenting an idea in a presentation. If people are spending time and effort on trying to understand your visual, they are spending less time listening to you. Your goal should always be to have people to listen to you as you present data.</p>
-<p>Major retailers like Walmart, Amazon and others use data they collect from millions of people who visit their websites and stores to recommend you products. Indeed, there is a famous story about a father who phoned the complaints department at Walmart because Walmart sent his 16 year old daughter targeted marketing material meant for someone who was about to have a baby. The material, which consisted of adds for strollers, cribs, cute baby shoes and other baby accessories, also had coupons for diapers and baby formula. The father, furious that Walmart would send advertisements that might encourage his teenage daughter to have sex and get pregnant, yelled at the operator on the other end of the phone and demanded an apology.</p>
+<blockquote>
+<p>Example: Major retailers like Walmart, Amazon and others use data they collect from millions of people who visit their websites and stores to recommend you products. Indeed, there is a famous story about a father who phoned the complaints department at Walmart because Walmart sent his 16 year old daughter targeted marketing material meant for someone who was about to have a baby. The material, which consisted of adds for strollers, cribs, cute baby shoes and other baby accessories, also had coupons for diapers and baby formula. The father, furious that Walmart would send advertisements that might encourage his teenage daughter to have sex and get pregnant, yelled at the operator on the other end of the phone and demanded an apology.</p>
 <table>
 <thead>
 <tr class="header">
@@ -307,7 +244,8 @@ div.csl-indent {
 </tbody>
 </table>
 <p>As it turns out, the daughter had made some purchases that Walmart’s data team had flagged as strong indicators that the purchaser was pregnant. The store then automatically sent out the marketing material without considering the age of the girl. But, that’s not the entire story. It turns out that the girl was pregnant. And, that’s how Walmart knew a teenage girl was pregnant before her dad did.</p>
-<p>But, data goes far beyond these simple examples. When you go online, you see adds. These adds target you because of your online preferences, the sites you’ve visited and even parts of the website that you have hovered over. These adds don’t just happen to be for products and services you are interested in. Massive amounts of data were collected and people with similar internet history to you and they will see similar adds to you. Those whose internet history is different will likely see different adds. The data drives the marketing.</p>
+</blockquote>
+<p>But, data goes far beyond these simple examples. When you go online, you see adds. These adds target you because of your online preferences, the sites you’ve visited and even parts of the website that you have hovered over. These adds don’t just happen to be for products and services you are interested in. Massive amounts of data were collected. You, and people with similar internet history to you, they will see similar adds to you. Those whose internet history is different will likely see different adds. The data drives the marketing.</p>
 <p>We all have smartphones. These phones track our steps, take care of email and text messages, track where we are, give us directions and help us navigate social media. This data is all stored and can all be used by the service provider to give you better service. Think about it - when was the last time you had to use a paper map to get somewhere? Do gas stations still sell paper maps? Our smartphone providers have vast amounts of data on you and where you’ve been. By using the various apps on your phone, you have essentially given your phone provider an endless supply of data about you and your habits.</p>
 <table>
 <thead>
@@ -317,14 +255,14 @@ div.csl-indent {
 </thead>
 <tbody>
 <tr class="odd">
-<td align="center"><b>Image Credits - Trevor Wheelwright, 2022</b></td>
+<td align="center"><b>Image Credits - Trevor Wheelwright (<span class="citation">Wheelwright (<a href="references.html#ref-2022CellPhone" role="doc-biblioref">2022</a>)</span>)</b></td>
 </tr>
 </tbody>
 </table>
 <p>The point is that data is all around us and those who use data are in a better position than those who don’t. Daryl Morey is an NBA executive. He once said “Everyone in our business knows they need to visualize data but it’s easy to do it poorly. We invest in it. We’re excited if we can use it right while they use it wrong.” (<span class="citation">Berinato (<a href="references.html#ref-Berinato_2016" role="doc-biblioref">2016</a>)</span>). We hope that after reading this book, you will use it right.</p>
 <div id="growth-in-data" class="section level2 hasAnchor" number="1.1">
 <h2><span class="header-section-number">1.1</span> Growth in Data<a href="introduction.html#growth-in-data" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<p>We are currently living through the greatest expansion in data that the world has ever seen and as a result, it is becoming increasingly important that we understand the data and know how to correctly use it. Part of correctly using data is communication. Over 90% of the world’s data has been produced in the past 2 years (<span class="citation">Marr (<a href="references.html#ref-Marr" role="doc-biblioref">n.d.</a>)</span>). The graphic below is from 2015 data and depicts the daily amount of data created. All numbers are in billions.</p>
+<p>We are currently living through the greatest expansion in data that the world has ever seen and as a result, it is becoming increasingly important that we understand the data and know how to correctly use it. Over 90% of the world’s data has been produced in the past 2 years (<span class="citation">Marr (<a href="references.html#ref-Marr" role="doc-biblioref">2018</a>)</span>). The graphic below is from 2015 data and depicts the daily amount of data created. All numbers are in billions.</p>
 <table>
 <thead>
 <tr class="header">
@@ -409,7 +347,7 @@ div.csl-indent {
 </thead>
 <tbody>
 <tr class="odd">
-<td align="center"><b>Image Credits - Statista (<span class="citation"> (<a href="references.html#ref-Global_inflation_rate" role="doc-biblioref">n.d.b</a>)</span>)</b></td>
+<td align="center"><b>Image Credits - Statista (<span class="citation"> (<a href="references.html#ref-Global_inflation_rate" role="doc-biblioref">n.d.a</a>)</span>)</b></td>
 </tr>
 </tbody>
 </table>
@@ -465,17 +403,11 @@ y_2:   &amp;6.58  &amp;5.76 &amp;7.71 &amp;8.84 &amp;8.47 &amp;7.04 &amp;5.25 &a
 <li>var(y1) = var(y2) = 4.127</li>
 <li>cor(x1,y1) = cor(x2,y2) = 0.8164</li>
 </ul>
-<p>So, based on the summary statistics, the two data sets are basically the same. They have the same mean x, the same mean y, the same standard deviation for x and for y, and even the correlation between the variables is the same. However, the data sets could not be more different and a quick graph shows us exactly that.</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="introduction.html#cb1-1" aria-hidden="true" tabindex="-1"></a>  x1 <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="dv">10</span>,   <span class="dv">8</span>,    <span class="dv">13</span>,   <span class="dv">9</span>,    <span class="dv">11</span>,   <span class="dv">14</span>,   <span class="dv">6</span>,    <span class="dv">4</span>,    <span class="dv">12</span>,     <span class="dv">7</span>,    <span class="dv">5</span>)</span>
-<span id="cb1-2"><a href="introduction.html#cb1-2" aria-hidden="true" tabindex="-1"></a>  y1 <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="fl">8.04</span>, <span class="fl">6.95</span>, <span class="fl">7.58</span>, <span class="fl">8.81</span>, <span class="fl">8.33</span>, <span class="fl">9.96</span>, <span class="fl">7.24</span>, <span class="fl">4.26</span>, <span class="fl">10.84</span> , <span class="fl">4.82</span>, <span class="fl">5.68</span>)</span>
-<span id="cb1-3"><a href="introduction.html#cb1-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">plot</span>(x1,y1, <span class="at">xlim=</span><span class="fu">c</span>(<span class="dv">0</span>,<span class="dv">20</span>), <span class="at">ylim=</span><span class="fu">c</span>(<span class="dv">0</span>,<span class="dv">14</span>))</span></code></pre></div>
-<p><img src="_main_files/figure-html/unnamed-chunk-1-1.png" width="672" /></p>
-<div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb2-1"><a href="introduction.html#cb2-1" aria-hidden="true" tabindex="-1"></a>  x2 <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="dv">8</span>,    <span class="dv">8</span>,    <span class="dv">8</span>,    <span class="dv">8</span>,    <span class="dv">8</span>,    <span class="dv">8</span>,    <span class="dv">8</span>,    <span class="dv">19</span>,    <span class="dv">8</span>,    <span class="dv">8</span>,    <span class="dv">8</span>)</span>
-<span id="cb2-2"><a href="introduction.html#cb2-2" aria-hidden="true" tabindex="-1"></a>  y2 <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="fl">6.58</span>, <span class="fl">5.76</span>, <span class="fl">7.71</span>, <span class="fl">8.84</span>, <span class="fl">8.47</span>, <span class="fl">7.04</span>, <span class="fl">5.25</span>, <span class="fl">12.50</span>, <span class="fl">5.56</span>, <span class="fl">7.91</span>, <span class="fl">6.89</span>)</span>
-<span id="cb2-3"><a href="introduction.html#cb2-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">plot</span>(x2,y2, <span class="at">xlim=</span><span class="fu">c</span>(<span class="dv">0</span>,<span class="dv">20</span>), <span class="at">ylim=</span><span class="fu">c</span>(<span class="dv">0</span>,<span class="dv">14</span>))</span></code></pre></div>
-<p><img src="_main_files/figure-html/unnamed-chunk-2-1.png" width="672" /></p>
+<p>So, based on the summary statistics, the two data sets are basically the same. They have the same mean x, the same mean y, the same standard deviation for x and for y, and even the correlation between the variables is the same. However, the data sets could not be more different and a quick graph shows us exactly that.
+<img src="_main_files/figure-html/unnamed-chunk-1-1.png" width="768" />
+<img src="_main_files/figure-html/unnamed-chunk-2-1.png" width="768" /></p>
 </blockquote>
-<p>The point of the previous example (which is based on the ideas in Anscombe’s quartet (<span class="citation"> (<a href="references.html#ref-Anscombequartet_2023" role="doc-biblioref">2023</a>)</span>)) is that the numbers do not tell the entire story. Thus, we need to be very careful how we present data, either in tabular form or in graphical form, to our audience.</p>
+<p>The point of the previous example (which is based on the ideas in Anscombe’s quartet <span class="citation"> (<a href="references.html#ref-Anscombequartet_2023" role="doc-biblioref">2023</a>)</span>) is that the numbers do not tell the entire story. Thus, we need to be very careful how we present data, either in tabular form or in graphical form, to our audience.</p>
 <p>In the sections that follow, we will present some ideas to help display data in a form that is the most meaningful and helps facilitate correct interpretations.</p>
 </div>
 <div id="planning-the-data-story" class="section level2 hasAnchor" number="1.4">
@@ -511,7 +443,7 @@ y_2:   &amp;6.58  &amp;5.76 &amp;7.71 &amp;8.84 &amp;8.47 &amp;7.04 &amp;5.25 &a
 </thead>
 <tbody>
 <tr class="odd">
-<td align="center"><b>Image Credits - Adam Amran (<span class="citation"> (<a href="references.html#ref-MintoPyramid" role="doc-biblioref">n.d.a</a>)</span>)</b></td>
+<td align="center"><b>Image Credits - Adam Amran <span class="citation"> (<a href="references.html#ref-MintoPyramid" role="doc-biblioref">n.d.b</a>)</span></b></td>
 </tr>
 </tbody>
 </table>
@@ -537,7 +469,7 @@ y_2:   &amp;6.58  &amp;5.76 &amp;7.71 &amp;8.84 &amp;8.47 &amp;7.04 &amp;5.25 &a
 </div>
 <div id="use-the-moral-or-emotional-approach" class="section level3 hasAnchor" number="1.5.4">
 <h3><span class="header-section-number">1.5.4</span> Use the Moral or Emotional Approach<a href="introduction.html#use-the-moral-or-emotional-approach" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p>A rather risky approach is to use something that elicits an emotional or moral reaction from the audience. For example, in less than four decades, the world’s finite supply of oil will be gone forever. Now, the issue here is that this can have a polarizing impact on your audience. Make sure you know your audience well enough to ensure that you don’t alianate any of them and risk them shutting down.</p>
+<p>A rather risky approach is to use something that elicits an emotional or moral reaction from the audience. For example, in less than four decades, the world’s finite supply of oil will be gone forever. Now, the issue here is that this can have a polarizing impact on your audience. Make sure you know your audience well enough to ensure that you don’t alienate any of them and risk them shutting down.</p>
 </div>
 <div id="use-a-personal-approach" class="section level3 hasAnchor" number="1.5.5">
 <h3><span class="header-section-number">1.5.5</span> Use a Personal Approach<a href="introduction.html#use-a-personal-approach" class="anchor-section" aria-label="Anchor link to header"></a></h3>

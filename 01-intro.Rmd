@@ -165,16 +165,15 @@ The previous example gives the impression that we know a fair bit about the data
 > * cor(x1,y1) = cor(x2,y2) = 0.8164
 >
 >  So, based on the summary statistics, the two data sets are basically the same.  They have the same mean x, the same mean y, the same standard deviation for x and for y, and even the correlation between the variables is the same.  However, the data sets could not be more different and a quick graph shows us exactly that.
-```{r, echo = FALSE, fig.width=8, fig.height=6}
-  x1 <- c(10,   8,    13,   9,    11,   14,   6,    4,    12,     7,    5)
-  y1 <- c(8.04, 6.95, 7.58, 8.81, 8.33, 9.96, 7.24, 4.26, 10.84 , 4.82, 5.68)
-  plot(x1,y1, xlim=c(0,20), ylim=c(0,14))
-```
-```{r, echo = FALSE, fig.width=8, fig.height=6}
-  x2 <- c(8,    8,    8,    8,    8,    8,    8,    19,    8,    8,    8)
-  y2 <- c(6.58, 5.76, 7.71, 8.84, 8.47, 7.04, 5.25, 12.50, 5.56, 7.91, 6.89)
-  plot(x2,y2, xlim=c(0,20), ylim=c(0,14))
-```
+
+|![](ansicomb1.PNG)|
+|:--:|
+
+
+|![](ansicomb2.png)|
+|:--:|
+
+
 
 The point of the previous example (which is based on the ideas in Anscombe's quartet @Anscombequartet_2023) is that the numbers do not tell the entire story.  Thus, we need to be very careful how we present data, either in tabular form or in graphical form, to our audience.  
 
